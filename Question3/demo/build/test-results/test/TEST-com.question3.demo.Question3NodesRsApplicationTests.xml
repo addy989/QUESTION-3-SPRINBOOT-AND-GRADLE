@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.question3.demo.Question3NodesRsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-12-15T16:20:16" hostname="DESKTOP-1C1I8L8" time="1.387">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.question3.demo.Question3NodesRsApplicationTests" time="1.387"/>
+  <system-out><![CDATA[21:50:14.553 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.question3.demo.Question3NodesRsApplicationTests]: Question3NodesRsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:50:14.680 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.question3.demo.Question3NodesRsApplication for test class com.question3.demo.Question3NodesRsApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.0)
+
+2024-12-15T21:50:15.167+05:30  INFO 25780 --- [question3-nodesRs] [    Test worker] c.q.d.Question3NodesRsApplicationTests   : Starting Question3NodesRsApplicationTests using Java 21.0.5 with PID 25780 (started by AdityaPahuja in C:\Users\AdityaPahuja\OneDrive - Bounteous\Desktop\FRIDAY ASSESSMENT\SPRINGBOOT AND GRADLE\Question3\demo)
+2024-12-15T21:50:15.167+05:30  INFO 25780 --- [question3-nodesRs] [    Test worker] c.q.d.Question3NodesRsApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2024-12-15T21:50:16.700+05:30  INFO 25780 --- [question3-nodesRs] [    Test worker] c.q.d.Question3NodesRsApplicationTests   : Started Question3NodesRsApplicationTests in 1.823 seconds (process running for 3.097)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\AdityaPahuja\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.10\e8eb255b2c378b9a6c7341e7b0e12f0a5636377\byte-buddy-agent-1.15.10.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+[
+  { "id": "1", "name": "CEO" },
+  { "id": "2", "name": "CTO", "parentId": "1" },
+  { "id": "3", "name": "CFO", "parentId": "1" },
+  { "id": "4", "name": "COO", "parentId": "1" },
+  { "id": "5", "name": "Engineering Manager", "parentId": "2" },
+  { "id": "6", "name": "QA Manager", "parentId": "2" }
+]
+
+
+[
+  { "parentId": "1", "childId": "2" },
+  { "parentId": "1", "childId": "3" },
+  { "parentId": "1", "childId": "4" },
+  { "parentId": "2", "childId": "5" },
+  { "parentId": "2", "childId": "6" }
+]
